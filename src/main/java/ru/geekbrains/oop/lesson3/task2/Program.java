@@ -6,19 +6,19 @@ public class Program {
 
     public static void main(String[] args) {
 
-        Worker[] workers = EmployeeFabric.generateEmployees(15);
-        for (Worker worker : workers) {
-            System.out.println(worker);
+        Employee[] employees = EmployeeFabric.generateEmployees(15);
+        for (Employee employee : employees) {
+            System.out.println(employee);
         }
 
-        Arrays.sort(workers/*, new SalaryComparator()*/);
+        Arrays.sort(employees/*, new SalaryComparator()*/);
 
         System.out.println();
         System.out.println("***");
         System.out.println();
 
-        for (Worker worker : workers) {
-            System.out.println(worker);
+        for (Employee employee : employees) {
+            System.out.println(employee);
         }
 
     }

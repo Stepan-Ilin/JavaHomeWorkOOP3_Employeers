@@ -11,6 +11,14 @@ public abstract class Employee implements Comparable<Employee> {
         return surNameRes;
     }
 
+
+
+
+    /**
+     * Возраст
+     */
+    protected  int age;
+
     /**
      * Имя
      */
@@ -31,10 +39,6 @@ public abstract class Employee implements Comparable<Employee> {
      */
     protected String post;
 
-    /**
-     * Возраст
-     */
-    protected  int age;
 
 
     /**

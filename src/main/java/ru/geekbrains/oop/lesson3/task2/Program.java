@@ -25,8 +25,8 @@ public class Program {
             System.out.println(employee);
         }
 
-        Arrays.sort(employees/*, new SalaryComparator()*/);
-
+        //Arrays.sort(employees, new SalaryComparator());
+        Arrays.sort(employees, new AgePostComparator());
         System.out.println();
         System.out.println("***");
         System.out.println();
